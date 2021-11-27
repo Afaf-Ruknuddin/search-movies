@@ -25,7 +25,6 @@ const Search = () => {
     const res = await reqData.json()
     setMdata(res.results)
     recentItems()
-    console.log(res);
   }
 
 
